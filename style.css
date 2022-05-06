@@ -1,0 +1,39 @@
+body {
+  background-color: #556b2f98;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.537);
+  display: flex;
+  align-items: center;
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 100;
+}
+
+.logo {
+  color: rgba(0, 0, 0, 0.724);
+  font-family: "PT Sans Caption", sans-serif;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.introduction {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 80px;
+}
+
+.moving-text {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 50px;
+}
