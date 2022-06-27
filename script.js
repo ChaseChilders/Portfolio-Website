@@ -56,3 +56,11 @@ window.onload = function () {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+const button = document.querySelector(".projects-button");
+
+button.addEventListener("click", (e) => {
+  const projectsSection = document.querySelector(".projects-title");
+
+  projectsSection.scrollIntoView({ behavior: "smooth" });
+});

@@ -180,18 +180,60 @@ i {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 60px;
+  width: 100%;
 }
 
 .python-image {
-  height: 300px;
-  width: auto;
-  padding-left: 20px;
+  height: 80%;
+  width: 30%;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 
 .python-text {
   color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 35px;
 }
 
 .python-heading {
   font-family: "Lexend Exa", sans-serif;
+}
+
+.python-description {
+  font-family: "Lexend Exa", sans-serif;
+}
+
+.python-github-button {
+  color: white;
+  border: 2px solid aquamarine;
+  border-radius: 0px;
+  padding: 4px 4px;
+  display: inline-block;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 aquamarine;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  width: 40%;
+  margin-top: 20px;
+  background-color: black;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.python-github-button:hover {
+  box-shadow: inset 0 100px 0 0 aquamarine;
+  color: black;
+}
+
+#python {
+  margin-bottom: 40px;
 }
