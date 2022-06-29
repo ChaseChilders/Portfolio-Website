@@ -57,10 +57,11 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
-const button = document.querySelector(".projects-button");
+const button = document.querySelector(".projectsNavButton");
 
 button.addEventListener("click", (e) => {
-  const projectsSection = document.querySelector(".projects-title");
+  e.preventDefault();
+  const projectsSection = document.querySelector(".project-section");
 
   projectsSection.scrollIntoView({ behavior: "smooth" });
 });
