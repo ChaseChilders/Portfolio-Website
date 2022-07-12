@@ -65,3 +65,12 @@ button.addEventListener("click", (e) => {
 
   projectsSection.scrollIntoView({ behavior: "smooth" });
 });
+
+const otherbutton = document.querySelector(".my-projects-button");
+
+otherbutton.addEventListener("click", (e) => {
+  e.preventDefault();
+  const projectsSection = document.querySelector(".project-section");
+
+  projectsSection.scrollIntoView({ behavior: "smooth" });
+});
