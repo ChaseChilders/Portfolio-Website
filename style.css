@@ -258,3 +258,105 @@ i {
 .contactMe {
   color: rgb(127, 255, 212);
 }
+
+@media (max-width: 480px) {
+  body {
+    width: 90%;
+  }
+  .header {
+    flex-direction: column;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .nav {
+    margin-left: 60px;
+  }
+  .logo {
+    text-align: center;
+    line-height: 60px;
+  }
+  .headshot {
+    height: 100px;
+    display: none;
+  }
+  .my-projects-button {
+    width: 100px;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .moving-text {
+    width: 400px;
+  }
+  .top-description {
+    width: 300px;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-title {
+    display: none;
+  }
+  .python-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .python-image {
+    width: 400px;
+  }
+  .python-text {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .contactMe {
+    font-size: 20px;
+  }
+  .contact {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .my-projects-button {
+    width: 100px;
+  }
+  body {
+    width: 90%;
+  }
+  .header {
+    flex-direction: column;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .nav {
+    margin-left: 60px;
+  }
+  .logo {
+    text-align: center;
+    line-height: 60px;
+  }
+  .headshot {
+    height: 200px;
+  }
+}
